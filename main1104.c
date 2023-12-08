@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
         case 1:
            
                  printf("\n \n *Sifrelemek istediginiz kelimeyi bosluk birakmadan yalnizca Ingilizce harflerle giriniz \n \n");
-                   scanf("%s", kelime);
+                   scanf(" %[^\n]s", kelime);
 
 
                 printf (" \n *Kaydirma miktari giriniz. \n");
@@ -58,7 +58,7 @@ int main(int argc, char *argv[]) {
             
 			
 		   printf("\n \n *Sifresini kirmak istediginiz kelimeyi bosluk birakmadan sadece Ingilizce harflerle giriniz \n \n");
-              scanf("%s", kelime);
+              scanf(" %[^\n]s", kelime);
 
            printf (" \n *Sifrelenirken kullanilmis kaydirma miktarini giriniz \n");
               scanf ("%d",&kaydir);	
