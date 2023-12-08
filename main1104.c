@@ -5,7 +5,7 @@
 int main(int argc, char *argv[]) {
 
     int fonksecici;
-    char kelime[35];
+    char kelime[100];
     int a,A,kaydir ;
     //kaydir = kaydirma miktari
 	char karakter;
@@ -42,8 +42,8 @@ int main(int argc, char *argv[]) {
 			}
 
            
-		    if (sizeof kelime>35) {
-                printf("Lutfen 35 harften daha kisa bir kelime giriniz \n");
+		    if (sizeof kelime>100) {
+                printf("Lutfen 100 harften daha kisa bir kelime giriniz \n");
             } 
 			else {
                 printf(" \n **Sifrelenmis kelime: %s \n", kelime);
@@ -57,7 +57,7 @@ int main(int argc, char *argv[]) {
 	    case 2:
             
 			
-		   printf("\n \n *Sifresini kirmak istediginiz kelimeyi bosluk birakmadan sadece harflerle giriniz \n \n");
+		   printf("\n \n *Sifresini kirmak istediginiz kelimeyi bosluk birakmadan sadece Ingilizce harflerle giriniz \n \n");
               scanf("%s", kelime);
 
            printf (" \n *Sifrelenirken kullanilmis kaydirma miktarini giriniz \n");
@@ -69,21 +69,21 @@ int main(int argc, char *argv[]) {
                 karakter = kelime[a];
 
                 if (islower(karakter)) {
-                    karakter = (karakter - 'a' - kaydir) % 26 + 'a';
+                    karakter = (karakter - 'a' - kaydir +26) % 26 + 'a';
                     kelime[a] = karakter;
                 } 
 				
 				
 				else if (isupper(karakter)) {
-                    karakter = (karakter - 'A' - kaydir) % 26 + 'A';
+                    karakter = (karakter - 'A' - kaydir +26) % 26 + 'A';
                     kelime[a] = karakter;
                 }
             
 			}
 
            
-		    if (sizeof kelime>35) {
-                printf("Lutfen 35 harften daha kisa bir kelime giriniz! \n");
+		    if (sizeof kelime>100) {
+                printf("Lutfen 100 harften daha kisa bir kelime giriniz! \n");
             } 
 			else {
                 printf(" \n **Sifresi kirilmis kelime: %s \n", kelime);
@@ -100,4 +100,3 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
-
