@@ -15,8 +15,16 @@ Kodun bölümleri hakkında detaylı bilgiler:
 
 
 *Scanf fonksiyonlarıyla kullanıcın girdiği değerler gerekli değişkenlere atılır
+        
 
+for (a = 0; kelime[a] != '\0'; a++) {
+            karakter = kelime[a];
 
-*
+                if (islower(karakter)) {
+                    karakter = (karakter - 'a' + kaydir) % 26 + 'a';
+                    kelime[a] = karakter;
+                } 
+
+* Yukarıdaki kısım
 
 
