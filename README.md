@@ -1,6 +1,8 @@
 Ekin Ali Karahan 1230505045 || Burak Çavuşoğlu 5230505068 || Yazılım 1.Sınıf Güz Dönemi
 
 
+!Kodu Burak Çavuşoğlu ile birlikte yazdık ancak readme kısımlarını birbirimizden ayrı olarak hazırladık.
+
 
 Proje dosyası içinde sunulan main1104.c eki, C dilinde DevC++ 5.11 kullanılarak yazılmış basit bir Sezar Şifreleme programıdır.Caeser cipher türü şifreleme sisteminin çalışma prensibi C dilinde harflere karşılık gelen sayıların değerlerinin değiştirilmesine dayanır.
 
