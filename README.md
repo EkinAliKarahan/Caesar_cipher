@@ -14,7 +14,9 @@ girilen kelimeye denk olup olmadığını kontrol ederek test edebilirsiniz. Ör
 Kodun bölümleri hakkında detaylı bilgiler:
 
 
+*Scanf fonksiyonlarıyla kullanıcın girdiği değerler gerekli değişkenlere atılır
 
 
+*
 
 
