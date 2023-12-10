@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* Kod bolumlerinin aciklamasi readme dosyasinda bulunmaktadir
+*/
 
 int main(int argc, char *argv[]) {
 
