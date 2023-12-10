@@ -25,6 +25,15 @@ for (a = 0; kelime[a] != '\0'; a++) {
                     kelime[a] = karakter;
                 } 
 
-* Yukarıdaki kısım
+* Yukarıdaki kısım için :
+For ile baslayan döngü kelime dizisindeki karakterlerin 0 değerine gelinene kadar artırılarak karakter değişkenine atanmasını sağlar
+
+islowe ve isupper girilen kelimede kücük harflerin yine küçük şekilde, büyük harflerin de yine büyük bir şekilde şifrelenmesini sağlar
+
+Bunların altında kalan kısım ise diziden alınan karakterin değerinin kaydırma miktarı kadar artırılmasını sağlar ve mod 26 alınarak deger, Ingilizce alfabe limitlerinde tutulur.
+
+kelime [a] = karakter ile diziden seçilip değeri kaydırılan karakterler tekrardan kelime dizisi içine yerlestirilir ve peintf fonksiyonu ile kullanıcıya şifreli bir şekilde sunulmuş olur.
+
+Şifre kırma fonksiyonundaki tek fark kaydırma miktarının toplanması yerine çıkarılmasıdır
 
 
