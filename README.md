@@ -19,7 +19,8 @@ Kodun bölümleri hakkında detaylı bilgiler:
 *Scanf fonksiyonlarıyla kullanıcın girdiği değerler gerekli değişkenlere atılır
  
 Switch ve case ile kullanıcının seçimiyle şifre oluşturma veya kırma fonksiyonlarına yönlendirilmesi sağlanır
-       
+
+-----------------------------------------       
 
 for (a = 0; kelime[a] != '\0'; a++) {
             karakter = kelime[a];
@@ -29,7 +30,7 @@ for (a = 0; kelime[a] != '\0'; a++) {
                     kelime[a] = karakter;
                 } 
 
-* Yukarıdaki kısım hakkında :
+* Yukarıdaki kod hakkında :
 For ile baslayan döngü kelime dizisindeki karakterlerin 0 değerine gelinene kadar artırılarak karakter değişkenine atanmasını sağlar
 
 islowe ve isupper girilen kelimede kücük harflerin yine küçük şekilde, büyük harflerin de yine büyük bir şekilde şifrelenmesini sağlar
