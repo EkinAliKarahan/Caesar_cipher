@@ -9,8 +9,7 @@ int main(int argc, char *argv[]) {
     int fonksecici;
     char kelime[100];
     int a,A,kaydir ;
-    //kaydir = kaydirma miktari
-	char karakter;
+	   char karakter;
 
     printf("Sifreleme programina hosgeldiniz \n \n  *Sifreleme yapmak icin 1'e, sifre kirmak icin 2'ye basin \n \n");
     scanf("%d", &fonksecici);
