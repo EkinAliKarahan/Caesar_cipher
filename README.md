@@ -29,7 +29,7 @@ for (a = 0; kelime[a] != '\0'; a++) {
                     kelime[a] = karakter;
                 } 
 
-* Yukarıdaki kısım için :
+* Yukarıdaki kısım hakkında :
 For ile baslayan döngü kelime dizisindeki karakterlerin 0 değerine gelinene kadar artırılarak karakter değişkenine atanmasını sağlar
 
 islowe ve isupper girilen kelimede kücük harflerin yine küçük şekilde, büyük harflerin de yine büyük bir şekilde şifrelenmesini sağlar
