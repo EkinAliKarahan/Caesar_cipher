@@ -11,6 +11,9 @@ Programı test etmek için girdiğiniz bir kelimeyi pozitif miktarda kaydırıp 
 girilen kelimeye denk olup olmadığını kontrol ederek test edebilirsiniz. Örneğin programa girilen "The quick brown fox jumps over the lazy dog" Cumlesi +3 kaydırma değeri ile şifrelenince ekrana
 "Wkh txlfn eurzq ira mxpsv ryhu wkh odcb grj" çıktısı gösterilir. Bu şifreyi şifre kırma fonksiyonuna 3 değerle girince tekrardan orijinal cümle yazdırılmalıdır.
 
+Kodun bölümleri hakkında detaylı bilgiler:
+
+
 
 
 
