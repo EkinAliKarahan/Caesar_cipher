@@ -15,7 +15,9 @@ Kodun bölümleri hakkında detaylı bilgiler:
 
 
 *Scanf fonksiyonlarıyla kullanıcın girdiği değerler gerekli değişkenlere atılır
-        
+ 
+Switch ve case ile kullanıcının seçimiyle şifre oluşturma veya kırma fonksiyonlarına yönlendirilmesi sağlanır
+       
 
 for (a = 0; kelime[a] != '\0'; a++) {
             karakter = kelime[a];
